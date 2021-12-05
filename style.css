@@ -1,0 +1,17 @@
+.grid {
+  height: 400px;/*10 x 10 squares big and each squares height and width are 40px*/
+  width: 400px;
+  display: flex;/*squares appear inline not stacked over each other like the default arrangement of the divs*/
+  flex-wrap: wrap;/*to make the square wrap over each other to fit them in the grid made*/
+  background-color: grey;
+}
+.grid div {
+  height:40px;/*dimensions of each square inside the grid inside the div*/
+  width:40px;
+}
+.checked {
+  background-color: red;
+}
+.bomb {
+  background-color: orange;
+}
